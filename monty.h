@@ -43,4 +43,10 @@ typedef struct instruction_s
 
 
 
+stack_t *push(stack_t **head, int number);
+void pint(stack_t **head, unsigned int number);
 
+
+
+
+#endif
